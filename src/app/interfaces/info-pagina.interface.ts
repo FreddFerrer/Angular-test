@@ -1,8 +1,3 @@
-
-
-
-
-
 export interface InfoPaginaI{
   titulo?: string;
   email?: string;

@@ -30,8 +30,6 @@ export class InfoPaginaService {
     this.httpClient.get('https://angular-html-20583-default-rtdb.asia-southeast1.firebasedatabase.app/.json')
     .subscribe( (res: { equipo: any[] }) => {
       this.equipo = res.equipo;
-      console.log('funciona???');
-      console.log(res);
     })
   }
 }
